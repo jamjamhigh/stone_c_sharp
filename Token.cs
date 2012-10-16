@@ -3,20 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Stone;
 
 
 namespace stone
 {
-    public abstract class Token
+    public class Token
     {
         public static readonly Token EOF = new Token(-1) { };
         public static readonly String EOL = "\\n";
         private int lineNumber;
-        private int p;
-
+        
         protected Token(int line)
         {
-            lineNumber = line;
+            this.lineNumber = line;
         }
 
         public int getLineNumber() { return lineNumber; }

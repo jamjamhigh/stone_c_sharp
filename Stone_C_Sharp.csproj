@@ -34,10 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ASTree.cs" />
     <Compile Include="CodeDialog.cs" />
-    <Compile Include="IOException.cs" />
     <Compile Include="Lexer.cs" />
-    <Compile Include="Reader.cs" />
+    <Compile Include="LineNumberReader.cs" />
     <Compile Include="StoneException.cs" />
     <Compile Include="Token.cs" />
   </ItemGroup>

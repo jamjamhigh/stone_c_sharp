@@ -16,14 +16,13 @@ public class CodeDialog : Reader
     private int pos = 0;
 
     public int read(char[] cbuf, int off, int len) {
-        throw IOException;
         if(buffer == null){
-            String in = showDialog();
-            if(in == null)
+            String inpo = showDialog();
+            if(inpo == null)
                 return -1;
             else{
-                Console.Write(in);
-                buffer = in + "\n";
+                Console.Write(inpo);
+                buffer = inpo + "\n";
                 pos = 0;
             }
         }
@@ -45,7 +44,7 @@ public class CodeDialog : Reader
     }
     public void close()
     {
-        throw IOException;
+
     }
     protected String showDialog(){
         Form form = new Form();

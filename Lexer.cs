@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.IO.StreamReader;
 
 
 // これはリスト15.1にある字句解析器を手で書く、の方で書かれたコードです。
@@ -98,23 +97,4 @@ namespace stone
             }
         }
     }
-
-
-
-    /*
-    class Lexer
-    {
-        public static String regexPat =
-            "\\s*((//.*)|([0-9]+)|(\"(\\\\\"|\\\\\\\\|\\\\n|[^\"]*\")"
-            + "|[A-Z_a-z][A-Z_a-z0-9]*|==|<=|>=|&&|\\|\\||\\p{Punct})?";
-        private Regex regex = new Regex(regexPat);
-        private ArrayList<Token> queue = new ArrayList<Token>();
-        private bool hasMore;
-        private LineNumberTextReader reader;
-
-        public Lexer(Stone.Reader r){
-            hasMore = true;
-            
-    }
-    */
 }

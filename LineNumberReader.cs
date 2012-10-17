@@ -7,7 +7,7 @@ using System.Text;
 
 namespace stone
 {
-    class LineNumberTextReader : TextReader
+    public class LineNumberTextReader : TextReader
     {
         private readonly TextReader reader;
         private int b;

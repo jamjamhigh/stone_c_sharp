@@ -34,10 +34,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ASTLeaf.cs" />
+    <Compile Include="ASTList.cs" />
     <Compile Include="ASTree.cs" />
+    <Compile Include="BinaryExpr.cs" />
     <Compile Include="CodeDialog.cs" />
+    <Compile Include="ExprParser.cs" />
     <Compile Include="Lexer.cs" />
     <Compile Include="LineNumberReader.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="NumberLiteral.cs" />
     <Compile Include="StoneException.cs" />
     <Compile Include="Token.cs" />
   </ItemGroup>

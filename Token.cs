@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using Stone;
 
-
 namespace stone
 {
     public class Token

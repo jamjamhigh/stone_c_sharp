@@ -11,8 +11,10 @@ namespace Stone
         public StoneException(String m) : base(m)
         {
         }
+        /*
         public StoneException(String m, ASTree t) : base(m + " " + t.location())
         {
         }
+         */
     }
 }

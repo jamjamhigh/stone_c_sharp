@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,3 +16,4 @@ namespace stone
         public ASTree right(){ return child(2); }
     }
 }
+*/

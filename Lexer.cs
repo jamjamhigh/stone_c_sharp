@@ -86,7 +86,7 @@ namespace stone
         }
         private static bool isDigit(int c) { return '0' <= c && c <= '9'; }
         private static bool isSpace(int c) { return 0 <= c && c <= ' '; }
-        private static void main(String[] args)
+        private static void Main(String[] args)
         {
             throw new Exception();
 

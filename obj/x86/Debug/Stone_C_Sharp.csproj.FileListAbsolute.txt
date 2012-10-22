@@ -1,1 +1,8 @@
 C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\stone.CodeDialog.resources
+C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\jam\Documents\GitHub\stone_c_sharp\bin\Debug\make program language.exe
+C:\Users\jam\Documents\GitHub\stone_c_sharp\bin\Debug\make program language.pdb
+C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\make program language.exe
+C:\Users\jam\Documents\GitHub\stone_c_sharp\obj\x86\Debug\make program language.pdb
